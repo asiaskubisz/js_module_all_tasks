@@ -8,7 +8,7 @@ function getTriangleArea(a, h) {
     if (a <= 0 || h <= 0){
         console.log('Nieprawidłowe dane');
 }       
-    return (a*h/4)};
+    return (a*h/3)};
 
 console.log( getTriangleArea(10,6) )
 console.log(triangle1Area)
